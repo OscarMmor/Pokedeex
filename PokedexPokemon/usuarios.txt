@@ -1,0 +1,8 @@
+Oscar|Alonso|Entrenador
+Oscar Morales|Montiel|Entrenador
+Alonso|Oscar|Entrenador
+Lacrini|1234|Entrenador
+Morales|1234|Cuidador
+Montiel|1234|Entrenador
+Dylan|1234|Entrenador
+Dylan Moreno|1234|Cuidador
