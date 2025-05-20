@@ -52,6 +52,7 @@ public class Registrar_1 extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 51, 51));
 
+        TablaRegistros.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         TablaRegistros.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -63,13 +64,14 @@ public class Registrar_1 extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        TablaRegistros.setGridColor(new java.awt.Color(255, 255, 255));
+        TablaRegistros.setSelectionBackground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setViewportView(TablaRegistros);
 
         jLabel1.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel1.setForeground(new java.awt.Color(255, 204, 0));
         jLabel1.setText("Regsitrar Pokemones");
 
-        btnRegresarPokedex.setIcon(new javax.swing.ImageIcon("C:\\Users\\oscar\\Downloads\\izquierda.png")); // NOI18N
         btnRegresarPokedex.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegresarPokedexActionPerformed(evt);
@@ -79,7 +81,6 @@ public class Registrar_1 extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 153, 0));
 
         jLabel2.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(51, 102, 255));
         jLabel2.setText("Nombre:");
 
         txtNombrePokemon.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +90,6 @@ public class Registrar_1 extends javax.swing.JFrame {
         });
 
         jLabel3.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(51, 102, 255));
         jLabel3.setText("Tipo:");
 
         txtTipoPokemon.addActionListener(new java.awt.event.ActionListener() {
@@ -99,7 +99,6 @@ public class Registrar_1 extends javax.swing.JFrame {
         });
 
         jLabel4.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(51, 102, 255));
         jLabel4.setText("Habilidad 1:");
 
         txtHabilidad1.addActionListener(new java.awt.event.ActionListener() {
@@ -109,7 +108,6 @@ public class Registrar_1 extends javax.swing.JFrame {
         });
 
         jLabel5.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(51, 102, 255));
         jLabel5.setText("Habilidad 2:");
 
         txtHabilidad2.addActionListener(new java.awt.event.ActionListener() {
@@ -119,7 +117,6 @@ public class Registrar_1 extends javax.swing.JFrame {
         });
 
         jLabel6.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(51, 102, 255));
         jLabel6.setText("Naturaleza:");
 
         txtNaturaleza.addActionListener(new java.awt.event.ActionListener() {
@@ -129,7 +126,6 @@ public class Registrar_1 extends javax.swing.JFrame {
         });
 
         jLabel7.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(51, 102, 255));
         jLabel7.setText("Genero:");
 
         txtGenero.addActionListener(new java.awt.event.ActionListener() {
@@ -139,7 +135,6 @@ public class Registrar_1 extends javax.swing.JFrame {
         });
 
         jLabel8.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(51, 102, 255));
         jLabel8.setText("Peso:");
 
         txtPesoPokemon.addActionListener(new java.awt.event.ActionListener() {
@@ -148,9 +143,8 @@ public class Registrar_1 extends javax.swing.JFrame {
             }
         });
 
-        btnRegistrarPokemon.setBackground(new java.awt.Color(51, 102, 255));
+        btnRegistrarPokemon.setBackground(new java.awt.Color(255, 204, 0));
         btnRegistrarPokemon.setFont(new java.awt.Font("Showcard Gothic", 0, 12)); // NOI18N
-        btnRegistrarPokemon.setForeground(new java.awt.Color(255, 153, 0));
         btnRegistrarPokemon.setText("Registrar");
         btnRegistrarPokemon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

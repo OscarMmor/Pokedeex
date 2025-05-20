@@ -64,15 +64,18 @@ public class Editar_1 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        btnRegresarPokedex.setIcon(new javax.swing.ImageIcon("C:\\Users\\oscar\\Downloads\\izquierda.png")); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+
         btnRegresarPokedex.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegresarPokedexActionPerformed(evt);
             }
         });
 
+        btnActualizarPokemon.setBackground(new java.awt.Color(0, 153, 204));
         btnActualizarPokemon.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         btnActualizarPokemon.setText("Actualizar");
+        btnActualizarPokemon.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnActualizarPokemon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnActualizarPokemonActionPerformed(evt);
@@ -82,6 +85,7 @@ public class Editar_1 extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel2.setText("Nombre:");
 
+        txtNombreEditar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtNombreEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtNombreEditarActionPerformed(evt);
@@ -91,6 +95,7 @@ public class Editar_1 extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel3.setText("Tipo:");
 
+        txtTipoEditar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtTipoEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtTipoEditarActionPerformed(evt);
@@ -100,6 +105,7 @@ public class Editar_1 extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel4.setText("Habilidad 1:");
 
+        txtHabilidad1Editar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtHabilidad1Editar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtHabilidad1EditarActionPerformed(evt);
@@ -109,6 +115,7 @@ public class Editar_1 extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel5.setText("Habilidad 2:");
 
+        txtHabilidad2Editar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtHabilidad2Editar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtHabilidad2EditarActionPerformed(evt);
@@ -118,6 +125,7 @@ public class Editar_1 extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel6.setText("Naturaleza:");
 
+        txtNaturalezaEditar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtNaturalezaEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtNaturalezaEditarActionPerformed(evt);
@@ -127,6 +135,7 @@ public class Editar_1 extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel7.setText("Genero:");
 
+        txtGeneroEditar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtGeneroEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtGeneroEditarActionPerformed(evt);
@@ -136,6 +145,7 @@ public class Editar_1 extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel8.setText("Peso:");
 
+        txtPesoEditar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtPesoEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPesoEditarActionPerformed(evt);
@@ -145,12 +155,14 @@ public class Editar_1 extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel9.setText("ID:");
 
+        txtIdEditar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtIdEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtIdEditarActionPerformed(evt);
             }
         });
 
+        TablaEditar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         TablaEditar.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -174,7 +186,7 @@ public class Editar_1 extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(214, 214, 214)
                 .addComponent(btnActualizarPokemon)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 239, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 267, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(90, 90, 90))
             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -227,7 +239,7 @@ public class Editar_1 extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

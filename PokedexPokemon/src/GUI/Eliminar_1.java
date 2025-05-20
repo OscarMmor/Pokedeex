@@ -35,6 +35,9 @@ public class Eliminar_1 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(255, 153, 153));
+
+        TablaEliminar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         TablaEliminar.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -51,15 +54,16 @@ public class Eliminar_1 extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
         jLabel1.setText("Eliminar Pokemones");
 
+        btnEliminarPokemon.setBackground(new java.awt.Color(255, 51, 51));
         btnEliminarPokemon.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         btnEliminarPokemon.setText("Eliminar");
+        btnEliminarPokemon.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnEliminarPokemon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEliminarPokemonActionPerformed(evt);
             }
         });
 
-        btnRegresarPokedex.setIcon(new javax.swing.ImageIcon("C:\\Users\\oscar\\Downloads\\izquierda.png")); // NOI18N
         btnRegresarPokedex.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegresarPokedexActionPerformed(evt);

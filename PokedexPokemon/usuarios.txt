@@ -6,3 +6,6 @@ Morales|1234|Cuidador
 Montiel|1234|Entrenador
 Dylan|1234|Entrenador
 Dylan Moreno|1234|Cuidador
+Dylan Cabron|123456|Entrenador
+Dylan |123|Entrenador
+Oscarmiamor|123|Entrenador
