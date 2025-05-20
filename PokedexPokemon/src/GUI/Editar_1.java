@@ -66,6 +66,7 @@ public class Editar_1 extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 153, 153));
 
+        btnRegresarPokedex.setIcon(new javax.swing.ImageIcon("C:\\Users\\oscar\\Downloads\\izquierda.png")); // NOI18N
         btnRegresarPokedex.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegresarPokedexActionPerformed(evt);
