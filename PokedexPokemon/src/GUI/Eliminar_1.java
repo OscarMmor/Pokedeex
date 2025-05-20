@@ -64,6 +64,7 @@ public class Eliminar_1 extends javax.swing.JFrame {
             }
         });
 
+        btnRegresarPokedex.setIcon(new javax.swing.ImageIcon("C:\\Users\\oscar\\Downloads\\izquierda.png")); // NOI18N
         btnRegresarPokedex.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegresarPokedexActionPerformed(evt);
