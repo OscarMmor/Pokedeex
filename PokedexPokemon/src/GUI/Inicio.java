@@ -37,12 +37,12 @@ public class Inicio extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\oscar\\Downloads\\1931a561-470d-498b-bc29-29971da72a4c (1).png")); // NOI18N
         jLabel1.setText("jLabel1");
 
         jLabel2.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel2.setText("Nombre:");
 
+        txtNombre.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtNombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtNombreActionPerformed(evt);
@@ -52,6 +52,7 @@ public class Inicio extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel3.setText("Contraseña:");
 
+        txtPass.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtPass.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPassActionPerformed(evt);
@@ -62,6 +63,7 @@ public class Inicio extends javax.swing.JFrame {
         btnEntrar.setFont(new java.awt.Font("Showcard Gothic", 0, 12)); // NOI18N
         btnEntrar.setForeground(new java.awt.Color(255, 204, 102));
         btnEntrar.setText("Entrar");
+        btnEntrar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnEntrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEntrarActionPerformed(evt);
@@ -73,8 +75,8 @@ public class Inicio extends javax.swing.JFrame {
 
         btnRegistrase.setFont(new java.awt.Font("Showcard Gothic", 0, 12)); // NOI18N
         btnRegistrase.setForeground(new java.awt.Color(255, 51, 51));
-        btnRegistrase.setText("Iniciar sesión");
-        btnRegistrase.setBorder(null);
+        btnRegistrase.setText("Registrarse");
+        btnRegistrase.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnRegistrase.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegistraseActionPerformed(evt);
@@ -94,12 +96,6 @@ public class Inicio extends javax.swing.JFrame {
                         .addComponent(btnRegistrase)
                         .addGap(28, 28, 28))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addGap(125, 125, 125)
-                            .addComponent(jLabel2))
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addGap(104, 104, 104)
-                            .addComponent(jLabel3))
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(jPanel2Layout.createSequentialGroup()
                             .addGap(31, 31, 31)
@@ -109,8 +105,16 @@ public class Inicio extends javax.swing.JFrame {
                 .addContainerGap(36, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnEntrar)
-                .addGap(140, 140, 140))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(btnEntrar, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(140, 140, 140))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel2)
+                        .addGap(146, 146, 146))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel3)
+                        .addGap(132, 132, 132))))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -121,13 +125,13 @@ public class Inicio extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(28, 28, 28)
+                .addGap(34, 34, 34)
                 .addComponent(jLabel3)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(txtPass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnEntrar)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addComponent(btnEntrar, javax.swing.GroupLayout.DEFAULT_SIZE, 24, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnRegistrase)
                     .addComponent(jLabel4))
@@ -148,7 +152,7 @@ public class Inicio extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(21, 21, 21)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
