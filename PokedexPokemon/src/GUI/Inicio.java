@@ -37,7 +37,7 @@ public class Inicio extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel1.setText("jLabel1");
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\oscar\\Downloads\\1931a561-470d-498b-bc29-29971da72a4c (1).png")); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Showcard Gothic", 0, 14)); // NOI18N
         jLabel2.setText("Nombre:");
