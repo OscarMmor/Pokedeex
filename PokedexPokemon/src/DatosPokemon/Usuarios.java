@@ -43,3 +43,5 @@ public class Usuarios {
     }
 }
 
+/* En esta parte del código creamos lo que es los getters y setters los cuales nos p
+ermiten controlar el acceso y la modificación de los atributos de una clase  y sus constructores*/
